@@ -12,7 +12,8 @@ module.exports = (value, data) => {
         const sFtUnit = typeof unit === 'string' ? unit : 'rem';
         const ftMin = Math.round(sFtMin * Math.pow(sFtRMin, value) * 1e2) / 1e2;
         const ftMax = Math.round(sFtMax * Math.pow(sFtRMax, value) * 1e2) / 1e2;
-        return `clamp(${ftMin}${sFtUnit}, calc(${ftMin}${sFtUnit} + ${ftMax - ftMin} * (100vw - ${sFtSMin}${sFtUnit}) / ${sFtSMax - sFtSMin}), ${ftMax}${sFtUnit})`;
+        const ftDiff = Math.round((ftMax - ftMin) / 1e2) * 1e2;
+        return `clamp(${ftMin}${sFtUnit}, calc(${ftMin}${sFtUnit} + ${ftDiff} * (100vw - ${sFtSMin}${sFtUnit}) / ${sFtSMax - sFtSMin}), ${ftMax}${sFtUnit})`;
     }
     return value;
 }
