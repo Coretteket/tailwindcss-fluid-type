@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-fluid-type",
+  "name": "tailwindcss-fluid-text",
   "version": "2.0.4",
   "description": "Bring fluid type to tailwindcss",
   "main": "src/index.js",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "modular-scale",
-    "fluid-type",
+    "fluid-text",
     "tailwindcss"
   ],
   "repository": {
