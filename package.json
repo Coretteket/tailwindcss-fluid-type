@@ -17,13 +17,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidhellmann/tailwindcss-fluid-type.git"
+    "url": "git+https://github.com/coretteket/tailwindcss-fluid-type.git"
   },
-  "author": "David Hellmann",
+  "author": "Quinten Coret",
   "bugs": {
-    "url": "https://github.com/davidhellmann/tailwindcss-fluid-type/issues"
+    "url": "https://github.com/coretteket/tailwindcss-fluid-type/issues"
   },
-  "homepage": "https://github.com/davidhellmann/tailwindcss-fluid-type#readme",
+  "homepage": "https://github.com/coretteket/tailwindcss-fluid-type#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.24",
     "tailwindcss-v2": "npm:tailwindcss@^2.2.16"
